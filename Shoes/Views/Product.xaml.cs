@@ -11,7 +11,7 @@ namespace Shoes.Views
     /// </summary>
     public partial class Product : Window
     {
-        private ShoessEntities _db = new ShoessEntities();
+        private ShoesEntities _db = new ShoesEntities();
 
         public Product()
         {

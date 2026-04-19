@@ -1,0 +1,208 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\My Project\u0027s\\Shoes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|E:\\My Project\u0027s\\Shoes\\shoes\\views\\autorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|solutionrelative:shoes\\views\\autorization.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|e:\\my project\u0027s\\shoes\\shoes\\views\\autorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|solutionrelative:shoes\\views\\autorization.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|E:\\My Project\u0027s\\Shoes\\shoes\\views\\product.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|solutionrelative:shoes\\views\\product.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|e:\\my project\u0027s\\shoes\\shoes\\database\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|solutionrelative:shoes\\database\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|e:\\my project\u0027s\\shoes\\shoes\\database\\nameproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|solutionrelative:shoes\\database\\nameproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|e:\\my project\u0027s\\shoes\\shoes\\classes\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|solutionrelative:shoes\\classes\\converters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|e:\\my project\u0027s\\shoes\\shoes\\views\\product.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|solutionrelative:shoes\\views\\product.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|E:\\My Project\u0027s\\Shoes\\shoes\\database\\connectclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|solutionrelative:shoes\\database\\connectclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|e:\\my project\u0027s\\shoes\\shoes\\database\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|solutionrelative:shoes\\database\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|e:\\my project\u0027s\\shoes\\shoes\\database\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B1E8D10C-EE40-4868-A019-CF99E365547C}|Shoes\\Shoes.csproj|solutionrelative:shoes\\database\\provider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 236,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Converters.cs",
+              "DocumentMoniker": "E:\\My Project\u0027s\\Shoes\\Shoes\\Classes\\Converters.cs",
+              "RelativeDocumentMoniker": "Shoes\\Classes\\Converters.cs",
+              "ToolTip": "E:\\My Project\u0027s\\Shoes\\Shoes\\Classes\\Converters.cs",
+              "RelativeToolTip": "Shoes\\Classes\\Converters.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAEAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T19:52:19.041Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Product.xaml",
+              "DocumentMoniker": "E:\\My Project\u0027s\\Shoes\\Shoes\\Views\\Product.xaml",
+              "RelativeDocumentMoniker": "Shoes\\Views\\Product.xaml",
+              "ToolTip": "E:\\My Project\u0027s\\Shoes\\Shoes\\Views\\Product.xaml",
+              "RelativeToolTip": "Shoes\\Views\\Product.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-19T18:46:36.11Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.xaml.cs",
+              "DocumentMoniker": "E:\\My Project\u0027s\\Shoes\\Shoes\\Views\\Product.xaml.cs",
+              "RelativeDocumentMoniker": "Shoes\\Views\\Product.xaml.cs",
+              "ToolTip": "E:\\My Project\u0027s\\Shoes\\Shoes\\Views\\Product.xaml.cs",
+              "RelativeToolTip": "Shoes\\Views\\Product.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T19:02:39.096Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConnectClass.cs",
+              "DocumentMoniker": "E:\\My Project\u0027s\\Shoes\\Shoes\\DataBase\\ConnectClass.cs",
+              "RelativeDocumentMoniker": "Shoes\\DataBase\\ConnectClass.cs",
+              "ToolTip": "E:\\My Project\u0027s\\Shoes\\Shoes\\DataBase\\ConnectClass.cs",
+              "RelativeToolTip": "Shoes\\DataBase\\ConnectClass.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T18:46:36.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Autorization.xaml",
+              "DocumentMoniker": "E:\\My Project\u0027s\\Shoes\\Shoes\\Views\\Autorization.xaml",
+              "RelativeDocumentMoniker": "Shoes\\Views\\Autorization.xaml",
+              "ToolTip": "E:\\My Project\u0027s\\Shoes\\Shoes\\Views\\Autorization.xaml",
+              "RelativeToolTip": "Shoes\\Views\\Autorization.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-19T18:46:36.127Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Autorization.xaml.cs",
+              "DocumentMoniker": "E:\\My Project\u0027s\\Shoes\\Shoes\\Views\\Autorization.xaml.cs",
+              "RelativeDocumentMoniker": "Shoes\\Views\\Autorization.xaml.cs",
+              "ToolTip": "E:\\My Project\u0027s\\Shoes\\Shoes\\Views\\Autorization.xaml.cs",
+              "RelativeToolTip": "Shoes\\Views\\Autorization.xaml.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAcwB4AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T18:46:36.127Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 164,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "nameProduct.cs",
+              "DocumentMoniker": "E:\\My Project\u0027s\\Shoes\\Shoes\\DataBase\\nameProduct.cs",
+              "RelativeDocumentMoniker": "Shoes\\DataBase\\nameProduct.cs",
+              "ToolTip": "E:\\My Project\u0027s\\Shoes\\Shoes\\DataBase\\nameProduct.cs",
+              "RelativeToolTip": "Shoes\\DataBase\\nameProduct.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwA4AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T19:22:44.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.cs",
+              "DocumentMoniker": "E:\\My Project\u0027s\\Shoes\\Shoes\\DataBase\\Product.cs",
+              "RelativeDocumentMoniker": "Shoes\\DataBase\\Product.cs",
+              "ToolTip": "E:\\My Project\u0027s\\Shoes\\Shoes\\DataBase\\Product.cs",
+              "RelativeToolTip": "Shoes\\DataBase\\Product.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAzwB4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T19:11:12.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Category.cs",
+              "DocumentMoniker": "E:\\My Project\u0027s\\Shoes\\Shoes\\DataBase\\Category.cs",
+              "RelativeDocumentMoniker": "Shoes\\DataBase\\Category.cs",
+              "ToolTip": "E:\\My Project\u0027s\\Shoes\\Shoes\\DataBase\\Category.cs",
+              "RelativeToolTip": "Shoes\\DataBase\\Category.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAswBEAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T19:12:37.111Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Provider.cs",
+              "DocumentMoniker": "E:\\My Project\u0027s\\Shoes\\Shoes\\DataBase\\Provider.cs",
+              "RelativeDocumentMoniker": "Shoes\\DataBase\\Provider.cs",
+              "ToolTip": "E:\\My Project\u0027s\\Shoes\\Shoes\\DataBase\\Provider.cs",
+              "RelativeToolTip": "Shoes\\DataBase\\Provider.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-19T19:13:04.88Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

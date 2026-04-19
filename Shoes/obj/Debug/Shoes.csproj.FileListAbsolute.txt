@@ -25,3 +25,31 @@ D:\Project\Shoes\Shoes\obj\Debug\Shoes_Content.g.cs
 D:\Project\Shoes\Shoes\obj\Debug\Shoes.csproj.Up2Date
 D:\Project\Shoes\Shoes\obj\Debug\Views\Product.g.cs
 D:\Project\Shoes\Shoes\obj\Debug\Views\Product.baml
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes.csproj.AssemblyReference.cache
+E:\My Project's\Shoes\Shoes\obj\Debug\Views\Admin.g.cs
+E:\My Project's\Shoes\Shoes\obj\Debug\Views\Autorization.g.cs
+E:\My Project's\Shoes\Shoes\obj\Debug\Views\Product.g.cs
+E:\My Project's\Shoes\Shoes\obj\Debug\App.g.cs
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes_Content.g.cs
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes_MarkupCompile.cache
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes_MarkupCompile.lref
+E:\My Project's\Shoes\Shoes\bin\Debug\Shoes.exe.config
+E:\My Project's\Shoes\Shoes\bin\Debug\Shoes.exe
+E:\My Project's\Shoes\Shoes\bin\Debug\Shoes.pdb
+E:\My Project's\Shoes\Shoes\bin\Debug\EntityFramework.dll
+E:\My Project's\Shoes\Shoes\bin\Debug\EntityFramework.SqlServer.dll
+E:\My Project's\Shoes\Shoes\bin\Debug\EntityFramework.xml
+E:\My Project's\Shoes\Shoes\bin\Debug\EntityFramework.SqlServer.xml
+E:\My Project's\Shoes\Shoes\bin\Debug\ru\EntityFramework.resources.dll
+E:\My Project's\Shoes\Shoes\obj\Debug\App.baml
+E:\My Project's\Shoes\Shoes\obj\Debug\Views\Admin.baml
+E:\My Project's\Shoes\Shoes\obj\Debug\Views\Autorization.baml
+E:\My Project's\Shoes\Shoes\obj\Debug\Views\Product.baml
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes.g.resources
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes.Properties.Resources.resources
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes.csproj.GenerateResource.cache
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes.csproj.CoreCompileInputs.cache
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes.csproj.Up2Date
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes.exe
+E:\My Project's\Shoes\Shoes\obj\Debug\Shoes.pdb
+E:\My Project's\Shoes\Shoes\obj\Debug\GeneratedInternalTypeHelper.g.cs

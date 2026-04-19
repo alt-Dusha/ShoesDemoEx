@@ -4,8 +4,12 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Shoes.Views"
+        xmlns:conv="clr-namespace:Shoes.Classes"
         mc:Ignorable="d"
         Title="Guest" MinHeight="800" MinWidth="1200">
+    <Window.Resources>
+        <conv:ImagePathConverter x:Key="ImagePathConverter"/>
+    </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="50"/>
@@ -32,7 +36,7 @@
                 <ItemsControl.ItemTemplate>
                     <DataTemplate>
                         <!--Карточка-->
-                        <Border Margin="10">
+                        <Border Margin="10" BorderBrush="DarkSlateGray" BorderThickness="2">
                             <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="Auto"/>
@@ -40,35 +44,59 @@
                                     <ColumnDefinition Width="Auto"/>
                                 </Grid.ColumnDefinitions>
                                 <!--Фотография товара-->
-                                <Border Width="80" Height="80" Margin="15 0">
-                                    <Image Source="{Binding Photo}"/>
+                                
+                                <!--Пока не работает, не знаю почему-->
+                                <Border Width="160" Height="80" Margin="15 0">
+                                    <Image Source="{Binding photo, Converter={StaticResource ImagePathConverter}}"/>
                                 </Border>
                                 <!--Основная информация-->
-                                <StackPanel Grid.Column="1">
+                                
+                                <StackPanel Grid.Column="1" Orientation="Vertical">
                                     <!--Категория товара-->
                                     <TextBlock FontWeight="Bold">
                                         <Run Text="{Binding Category.nameCategory}"/>
                                         <Run Text=" | "/>
-                                        <Run Text="{Binding Name}"/>
+                                        <Run Text="{Binding nameProduct.nameProduct1}"/>
                                     </TextBlock>
                                     <!--Описание товара-->
-                                    <TextBlock Text="{Binding Description}"
-                                               TextWrapping="Wrap"/>
-                                    <!--Производитель-->
-                                    <TextBlock Text="{Binding Provider.nameProvider}"/>
-                                    <!--Поставщик-->
-                                    <TextBlock Text="{Binding Producer.nameProducer}"/>
-                                    <StackPanel>
-                                        <!--Цена-->
-                                        <TextBlock Text="Цена: "/>
-                                        <TextBlock Text="{Binding Price}"/>
+                                    <TextBlock Text="{Binding Description}" TextWrapping="Wrap"/>
+                                    
+                                    <StackPanel Orientation="Horizontal">
+                                        <!--Производитель-->
+                                        <TextBlock Text="Производитель: "/>
+                                        <TextBlock Text="{Binding Manufacturer.nameManufacturer}" FontWeight="DemiBold"/>
+
+                                        <Separator Width="20px" Background="Transparent"/>
+                                        <!--Поставщик-->
+                                        <TextBlock Text="Поставщик: "/>
+                                        <TextBlock Text="{Binding Provider.nameProvider}" FontWeight="DemiBold"/>
                                     </StackPanel>
-                                    <TextBlock Text="{Binding Unit.nameUnit}"/>
-                                    <TextBlock Text="{Binding Count}"/>
-                                </StackPanel>
-                                <Border Grid.Column="2">
-                                    <TextBlock Text="{Binding Discount}"/>
-                                </Border>
+                                    <!--Цена-->
+                                    <StackPanel>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="Цена: "/>
+                                            <TextBlock Text="{Binding cost}"/>
+                                            <TextBlock Text="$"/>
+                                        </StackPanel>
+                                        <StackPanel Orientation="Horizontal">
+                                            <TextBlock Text="Скидка: "/>
+                                            <TextBlock HorizontalAlignment="Left" Foreground="Red">
+                                                <Run Text="{Binding sale}"/>
+                                                <Run Text="%"/>
+                                            </TextBlock>
+                                        </StackPanel>
+                                    </StackPanel>
+                                    
+                                    
+                                    <!--Количество-->
+                                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                                        <TextBlock Text="{Binding count}"/>
+                                        <TextBlock Text="{Binding Unit.nameUnit}"/>
+                                    </StackPanel>
+                                    </StackPanel>
+                                
+                                <!--<Border Grid.Column="2">
+                                </Border>-->
                             </Grid>
                         </Border>
                     </DataTemplate>

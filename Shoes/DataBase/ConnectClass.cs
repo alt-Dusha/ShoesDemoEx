@@ -8,6 +8,6 @@ namespace Shoes.DataBase
 {
     public static class ConnectClass
     {
-        public static ShoessEntities _db = new ShoessEntities();
+        public static ShoesEntities _db = new ShoesEntities();
     }
 }
