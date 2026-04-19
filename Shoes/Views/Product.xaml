@@ -1,0 +1,79 @@
+﻿<Window x:Class="Shoes.Views.Product"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shoes.Views"
+        mc:Ignorable="d"
+        Title="Guest" MinHeight="800" MinWidth="1200">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="150"/>
+        </Grid.RowDefinitions>
+        <!--Верхнее меню-->
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <TextBlock Grid.Column="1" Text="Каталог"
+                       VerticalAlignment="Center" FontSize="40"/>
+            <TextBlock x:Name="UserName" VerticalAlignment="Center"
+                       HorizontalAlignment="Right" Margin="20 30" Grid.Column="2"/>
+            <Button Content="Выйти"
+                    Width="150" HorizontalAlignment="Left"
+                    Click="LogOutButtonClick" Height="46" VerticalAlignment="Top"/>
+        </Grid>
+        <ScrollViewer Grid.Row="1">
+            <ItemsControl Name="ProductList">
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <!--Карточка-->
+                        <Border Margin="10">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <!--Фотография товара-->
+                                <Border Width="80" Height="80" Margin="15 0">
+                                    <Image Source="{Binding Photo}"/>
+                                </Border>
+                                <!--Основная информация-->
+                                <StackPanel Grid.Column="1">
+                                    <!--Категория товара-->
+                                    <TextBlock FontWeight="Bold">
+                                        <Run Text="{Binding Category.nameCategory}"/>
+                                        <Run Text=" | "/>
+                                        <Run Text="{Binding Name}"/>
+                                    </TextBlock>
+                                    <!--Описание товара-->
+                                    <TextBlock Text="{Binding Description}"
+                                               TextWrapping="Wrap"/>
+                                    <!--Производитель-->
+                                    <TextBlock Text="{Binding Provider.nameProvider}"/>
+                                    <!--Поставщик-->
+                                    <TextBlock Text="{Binding Producer.nameProducer}"/>
+                                    <StackPanel>
+                                        <!--Цена-->
+                                        <TextBlock Text="Цена: "/>
+                                        <TextBlock Text="{Binding Price}"/>
+                                    </StackPanel>
+                                    <TextBlock Text="{Binding Unit.nameUnit}"/>
+                                    <TextBlock Text="{Binding Count}"/>
+                                </StackPanel>
+                                <Border Grid.Column="2">
+                                    <TextBlock Text="{Binding Discount}"/>
+                                </Border>
+                            </Grid>
+                        </Border>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+        </ScrollViewer>
+    </Grid>
+</Window>

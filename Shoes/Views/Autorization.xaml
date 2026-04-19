@@ -1,0 +1,57 @@
+﻿<Window x:Class="Shoes.Views.Autorization"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Shoes"
+        mc:Ignorable="d"
+        Title="Авторизация"
+        WindowStartupLocation="CenterScreen"
+        Style="{StaticResource WindowStyle}">
+    <Grid>
+        <Border HorizontalAlignment="Center" VerticalAlignment="Center">
+            <StackPanel>
+                <TextBlock FontWeight="Black" Text="Авторизация" Margin="0, 0, 0, 20"/>
+                <Border BorderBrush="DarkSlateGray" BorderThickness="1"
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center">
+                    <StackPanel Margin="20">
+                        <TextBlock
+                            Text="Логин"
+                            Margin="40 6"/>
+                        <TextBox Text="1diph5e@tutanota.com"
+                            x:Name="UsName_tb"
+                            Margin="20 6"
+                            Width="170"/>
+                        <TextBlock
+                            Text="Пароль"
+                            Margin="20 6"/>
+                        <PasswordBox Password="8ntwUp"
+                            x:Name="UsPass_tb"
+                            Margin="20 6"
+                            Width="170"/>
+                        <Button 
+                            Content="Войти"
+                            Margin="20 10"
+                            Click="LoginButtonClick"/>
+                        <TextBlock Text="Войти как гость"
+                            FontSize="14"
+                            MouseDown="GuestButtonClick">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="Foreground" Value="Blue"/>
+                                    <Setter Property="HorizontalAlignment" Value="Center"/>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Foreground" Value="#7FFF00"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>
